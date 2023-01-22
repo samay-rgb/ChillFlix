@@ -4,7 +4,7 @@ import CastMember from "./CastMember";
 import { useParams } from "react-router-dom";
 import MovieItems from "./MovieItems";
 import ContentLoader from "react-content-loader";
-import { api_key } from "./Creds";
+const api_key = process.env.REACT_APP_API_KEY;
 
 export default function MovieDetails() {
   const [loading, setLoading] = useState(true);
