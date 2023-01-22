@@ -174,7 +174,7 @@ Sahil Saini - [Github](https://github.com/sahilsaini1234) 20bcs189@iiitdmj.ac.in
 
 Samay Sagar - [Twitter](https://twitter.com/https://twitter.com/Rahuldba99) [LinkedIn](https://www.linkedin.com/in/samay-sagar-a28847200/)- rahuldba99@gmail.com
 
-Backend Link: [https://github.com/sahilsaini1234/movies-recommendation-backend](https://github.com/sahilsaini1234/movies-recommendation-backend)
+Backend Link: [https://github.com/sahilsaini1234/Chillflix-backend](https://github.com/sahilsaini1234/Chillflix-backend)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
