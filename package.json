@@ -1,44 +1,34 @@
 {
-  "name": "movies_reccomendation",
-  "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "axios": "^0.24.0",
-    "dotenv": "^16.0.3",
-    "jquery": "^3.6.0",
-    "react": "^17.0.2",
-    "react-autocomplete-input": "^1.0.18",
-    "react-content-loader": "^6.1.0",
-    "react-dom": "^17.0.2",
-    "react-preloaders": "^3.0.3",
-    "react-router-dom": "^6.1.1",
-    "react-scripts": "4.0.3",
-    "react-top-loading-bar": "^2.1.0",
-    "styled-components": "^5.3.3",
-    "web-vitals": "^1.1.2"
+  "description": "A movies recommendation system created using Next Js and Flask",
+  "repository": "https://github.com/samay-rgb/ChillFlix",
+  "bugs": {
+    "url": "https://github.com/samay-rgb/ChillFlix/issues"
   },
+  "homepage": "https://chill-flix-recommendations.onrender.com",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "author": "Samay Sagar<rahuldba99@gmail.com>",
+  "contributors": [
+    "Samay Sagar<rahuldba99@gmail.com>"
+  ],
+  "dependencies": {
+    "next": "latest",
+    "next-auth": "latest",
+    "nodemailer": "^6",
+    "react": "^18.2.0",
+    "react-content-loader": "^6.2.1",
+    "react-dom": "^18.2.0",
+    "use-sse": "^2.0.1"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@svgr/webpack": "^7.0.0",
+    "@types/node": "^17",
+    "@types/react": "^18.0.15",
+    "sass": "^1.61.0",
+    "typescript": "^4"
   }
 }

@@ -1,0 +1,11 @@
+.container{
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: #14213d;
+}
+.header{
+    margin-left: 1rem;
+}

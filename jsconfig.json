@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "components": ["./components"],
+      "pages": ["./pages"],
+      "hooks": ["./hooks"],
+      "services": ["./services"],
+      "styles": ["./styles"],
+      "templates": ["./templates"],
+      "utils": ["./utils"],
+      "context": ["./context"],
+      "blogs": ["./blogs"],
+      "public": ["./public"],
+      "images": ["./public/images"],
+      "data": ["./data"],
+      "constants": ["./constants"],
+      "glossary": ["./glossary"]
+    }
+  }
+}

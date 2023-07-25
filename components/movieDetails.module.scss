@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.5);
+    & img {
+      width: 300px;
+      border-radius: 10px;
+      @media (max-width: 768px) {
+        width: 200px;
+        height: 300px;
+        margin: auto;
+      }
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+    backdrop-filter: blur(10px);
+}
+.movieContainer{
+  margin-top: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-evenly;
+  background-color: #14213d;
+}
+.castContainer{
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  display: flex;
+  overflow-x: scroll;
+  color: white;
+  scrollbar-width: none;
+}
+.castContainer::-webkit-scrollbar {
+  display: none;
+}
+.overview {
+  color: white;
+  padding: 0 1em;
+}
