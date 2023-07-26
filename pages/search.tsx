@@ -24,9 +24,11 @@ export default function SearchResults() {
 
   if (loading) {
     return (
-      <div style={{ padding: "1rem 1.5rem" }}>
-        <h1 style={{ color: "white" }}>Loading...</h1>
-      </div>
+      <Layout>
+        <div style={{ padding: "1rem 1.5rem" }}>
+          <h1 style={{ color: "white" }}>Loading...</h1>
+        </div>
+      </Layout>
     );
   }
 

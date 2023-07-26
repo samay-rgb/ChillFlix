@@ -78,7 +78,7 @@ export default function Navbar(props: { movieList: string[] }) {
         <button
           className={classes.btn}
           type="submit"
-          onClick={() => router.push(`/search/?movie=${movieName}`)}
+          onClick={() => router.push(`/search?movie=${movieName}`)}
         >
           <img
             src="https://img.icons8.com/color/48/000000/search--v2.png"
