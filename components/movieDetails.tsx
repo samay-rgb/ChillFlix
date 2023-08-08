@@ -121,7 +121,7 @@ export default function MovieDetails() {
             {/* <p><b>Genres : </b>{(movie.genres).map((gen)=>{return gen.name+" | "})}</p> */}
           </div>
         </div>
-        <h1>Cast</h1>
+        <h1 style={{ padding: "1rem" }}>Cast</h1>
         <div className={classes.castContainer}>
           {cast.map((member: any, idx) => {
             if (member.profile_path) {

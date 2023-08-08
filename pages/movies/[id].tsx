@@ -27,9 +27,9 @@ export async function getServerSideProps(params: any) {
   const datajson = await data.json();
   const datajson1 = await data1.json();
   //console.log(datajson1);
-  console.log(param);
+  // console.log(param);
   let recom = await fetch(
-    "https://movie-recommender-backend-g.onrender.com/similarity/" + param.id
+    "https://chill-flix-backend.onrender.com/similarity/" + param.id
   );
   let recomjson = await recom.json();
   let temp = [];
@@ -162,7 +162,7 @@ export default function MovieDetails(props: any) {
             {/* <p><b>Genres : </b>{(movie.genres).map((gen)=>{return gen.name+" | "})}</p> */}
           </div>
         </div>
-        <h1>Cast</h1>
+        <h1 style={{ padding: "0 1rem" }}>Cast</h1>
         <div className={classes.castContainer}>
           {cast.map((member: any, idx: number) => {
             if (member.profile_path) {
@@ -171,7 +171,7 @@ export default function MovieDetails(props: any) {
           })}
         </div>
 
-        <h1>Recommended Movies</h1>
+        <h1 style={{ padding: "0 1rem" }}>Recommended Movies</h1>
         {movies.length > 0 && (
           <div className={classes.movieContainer}>
             {movies.map((item: any, idx: number) => {

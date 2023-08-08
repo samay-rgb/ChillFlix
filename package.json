@@ -16,6 +16,7 @@
     "Samay Sagar<rahuldba99@gmail.com>"
   ],
   "dependencies": {
+    "clsx": "^2.0.0",
     "next": "latest",
     "next-auth": "latest",
     "nodemailer": "^6",
